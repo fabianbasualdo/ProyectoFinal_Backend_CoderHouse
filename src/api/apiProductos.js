@@ -1,3 +1,5 @@
+//https://www.youtube.com/watch?v=hQAu0YEIF0g
+
 const Contenedor = require("../class/contenedorMemoria.js");
 const { generarProducto } = require("../utils/generarProducto");
 

@@ -42,6 +42,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("./views/layouts"));
 
 
+app.use(`/.netlify/functions/api`, routes);
 
 app.use("/", routes);
 
