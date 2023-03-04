@@ -20,14 +20,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "/node_modules/.bin/netlify-lambda serve src",
-    "build": "/node_modules/.bin/netlify-lambda build src"
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ https://github.com/fabianbasualdo/ProyectoFinal_Backend_CoderHouse.git"
+
+   
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.21"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fabianbasualdo/ProyectoFinal_Backend_CoderHouse.git/issues"
+
+   
+  },
+  "homepage": "github.com/fabianbasualdo/ProyectoFinal_Backend_CoderHouse.git#readme"
+  
+
+
 }
 
