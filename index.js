@@ -90,7 +90,7 @@ app.use(function (err, req, res, next) {
 });
 
 // SERVIDOR
-const PORT = parseInt(process.argv[2]) || 8080;
+const PORT = parseInt(process.argv[2]) || 80;
 
 httpServer.listen(PORT, () => {
   console.log(
